@@ -1,60 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+
 #hero-img{
     width: 100%;
 }
+
 nav a{
+    text-decoration: none;
+    color: #fcfbfb;
     text-align: center;
+    padding: 35px;
 }
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
 .button-box{
     text-align: center;
 }
+
 main section{
     text-align: center;
 }
+
 #background {
     height: 725px;
 }
 
-/*  Setting background colors */
 body{
     background-color: #fcfbfb; 
+    font-family: "Sofia Sans Semi Condensed";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
 header{
     background-color: #396E94
 }
+
 nav a:hover{
     background-color: #53D8FB;
 }
+
 .book, .join{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;   
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover, .join:hover{
     color: #fcfbfb;
 }
+
 #background{
-    background-color: #396E94
-}
-.msg{    
-    background-color: #396E94
-}
-footer{
-    background-color: #396E94
+    background-color: #396E94;
 }
 
-/*  Setting foreground colors */
+.msg{    
+    background-color: #396E94;
+    padding: 35px;
+    line-height: 1.5em;
+}
+
+footer{
+    background-color: #396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
 nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }
+
 nav a:hover{
     color: black;
 }
@@ -62,41 +91,83 @@ nav a:hover{
     text-align: center;
     color:black;
     text-decoration: none;
+    font-family: "Sofia Sans Semi Condensed";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:black;
 }
+
 .book, .join{
     color:black;
+    font-family: "Sofia Sans Semi Condensed";
+    font-size: 18px;
+    padding: 15px 30px;
 }
+
 .book:hover, .join:hover{
     color:#fcfbfb;
     background-color: #53D8FB;
 }
+
 .msg h2{
     color:black;
+    margin: 0;
 }
+
+.mountains{
+    padding: 50px;
+}
+
 .msg p{
     color:black;
+    font-family: "Sofia Sans Semi Condensed";
+    font-size: .8em;
+    padding-bottom: 15px;
 }
+
 footer p {
     font-size: 1.2em;
 }
+
 footer a{
     text-align: center;
     color:black;
     text-decoration: none;
 }
+
 footer a:hover{
     color:#fcfbfb;
     background-color: #53D8FB;
     text-decoration: underline;
 }
 
-/*  Add a Few Widths */
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
 .logo {
     width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
