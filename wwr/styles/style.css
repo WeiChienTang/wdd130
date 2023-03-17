@@ -370,3 +370,89 @@ form {
 .moveDown {
     margin-top: 3em;
 }
+
+.desolation-six-price:hover {
+    background-color: #023047;
+    color: #8ECAE6;
+}
+
+.rates-card-content h5, .rates-ul, .rates-button-box {
+    text-align: left;
+}
+
+.rates-card-img {
+    width: 100%;
+    border: 5px solid #8ECAE6;
+    height: 400px;
+    box-shadow: 5px 5px 10px #6f7364;
+    object-fit: cover;
+    max-width: 400px;
+}
+
+.container .rates-hover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.rates-card-title, span {
+    color: #023047;
+}
+
+.rates-ul {
+    color: #023047;
+    padding: 20px;
+}
+
+.grand-three-price, .salmon-five-price, .grand-six-price, .desolation-six-price{
+    background-color: #8ECAE6;
+    color: #023047;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 70px;
+    grid-column-gap: 50px;
+    grid-row-gap: 70px;
+}
+
+.rates-grid section{
+    display: flex;
+    justify-content: center;
+}
+
+.rates-content-wrapper{
+    max-width: 400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container_pic{
+    position: relative;
+}
+
+.container_pic:hover .rates-card-img {
+    opacity: 0.2;
+}
+
+.container_pic .rates-hover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.container_pic:hover .rates-hover {
+    display: block;
+}
+
+.hero-msg h1, .hero-msg h4, .button-box, main section {
+    text-align: center;
+}
