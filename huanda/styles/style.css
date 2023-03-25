@@ -299,7 +299,7 @@ main section img {
 
  .proud_main{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-gap: 10px;
     padding: 10px;
   }
@@ -380,4 +380,7 @@ main section img {
     cursor: pointer;
     border-radius: 10px;
 }
+/* .product_info_txt{
+    width: 100%;
+} */
   
