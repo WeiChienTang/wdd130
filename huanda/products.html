@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    
+    <script>
+        function myFunction(name) {
+          alert("More information about the " + name + " product.");
+        }
+    </script>
+
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
@@ -26,25 +33,26 @@
                     <img class="product_image" src="images/a1.jpg" alt="gas"> 
                     <div class="product_middle">
                         <div class="product_text">Gas Industry</div>
-                        <button class="product_btn product_btn_default">More</button>
+                        <button class="product_btn product_btn_default" onclick="myFunction('Gas')">More</button>
                     </div>          
                 </div>
                 <div class="product_container">
                     <img class="product_image" src="images/a2.jpg" alt="cargo">
                     <div class="product_middle">
                         <div class="product_text">Cargo Industry</div>
-                        <button class="product_btn product_btn_default">More</button>
+                        <button class="product_btn product_btn_default" onclick="myFunction('Cargo')">More</button>
                     </div>                    
                 </div>
                 <div class="product_container">
                     <img class="product_image" src="images/a3.jpg" alt="water">
                     <div class="product_middle">
                         <div class="product_text">Sewage Disposal Industry</div>
-                        <button class="product_btn product_btn_default">More</button>
+                        <button class="product_btn product_btn_default" onclick="myFunction('Sewage Disposal')">More</button>
                     </div>               
                 </div>
             </div>
         </main>
+
 
         <footer>
             <p>                
