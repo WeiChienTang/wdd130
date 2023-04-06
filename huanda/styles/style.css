@@ -502,3 +502,11 @@ form {
 .moveDown {
     margin-top: 3em;
 }
+
+main ul{
+    list-style-type:disc;
+}
+
+main li{
+    font-size: 16px;
+}
